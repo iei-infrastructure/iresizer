@@ -18,7 +18,7 @@
 1. Install Rust
 2. Clone this repository:
    ```bash
-   git clone https://github.com/indonesiaepsonindustry-isp/iresizer.git
+   git clone https://github.com/iei-infrastructure/iresizer.git
    cd iresizer
    ```
 3. Build the project
