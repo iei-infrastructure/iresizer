@@ -41,7 +41,7 @@ jobs:
 
     - name: Create Release
       if: startsWith(github.ref, 'refs/tags/')
-      uses: ncipollo/release-action@v1.13.0
+      uses: ncipollo/release-action@v1.16.0
       with:
         artifacts: target/release/iresizer.exe
         token: ${{ secrets.GITHUB_TOKEN }}
