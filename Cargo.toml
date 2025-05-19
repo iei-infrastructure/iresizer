@@ -1,0 +1,12 @@
+[package]
+name = "iResizer"
+version = "0.1.1"
+edition = "2024"
+
+[dependencies]
+image = "0.24"
+clap = { version = "4.4", features = ["derive"] }
+walkdir = "2.4"
+
+[build-dependencies]
+winres = "*"
